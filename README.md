@@ -1,1 +1,2 @@
-I am Learning Web Development
+Combined changes in the README.md from both versions
+
