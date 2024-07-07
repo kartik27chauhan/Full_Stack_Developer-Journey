@@ -1,145 +1,53 @@
-<!-- This How we Create a Table in HTML-->
-<!--We use tag <table>,fo row <tr>,for column <td>-->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,tr,td,th {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
 <body>
-    
-    <table id="First-Table">
-        <tr>
-            <th>Name</th>
-            <th>Maths</th>
-            <th>English</th>
-         </tr>
-          <tr>
-            <td>Kartik</td>
-            <td>80</td>
-            <td>95</td>
-          </tr>
-          <tr>
-            <td>Mohit</td>
-            <td>75</td>
-            <td>80</td>
-          </tr>
-          <tr>
-            <td>Ravi</td>
-            <td>78</td>
-            <td>90</td>
-          </tr>
-          <tr>
-            <td>Aman</td>
-            <td>67</td>
-            <td>78</td>
-          </tr>
-    </table>
   
+  <table >
+    <caption> My first Saving</caption>
+    <thead>
+     
+    </thead>
+    <tbody>
+      <tr>
+        <th>Month</th>
+        <th>Savings</th>
+      </tr>
+  
+      <tr>
+        <td>January</td>
+        <td>100</td>
+      </tr>
+  
+      <tr>
+        <td>Feburuary</td>
+        <td>300</td>
+      </tr>
+      <tr>
+        <td>March</td>
+        <td>400</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+       <tr>
+      <td>Total</td>
+      <td>800</td>
+    </tr>
+    </tfoot>
     
+  </table>
+
+  
 </body>
 </html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<!--Style used for adding Border-->
-    <style>
-       #Second-Table,#Second-Table th,#Second-Table td {
-            border: 1px solid black ;
-        
-
-        }
-    </style>
-    
-<body>
-    <h2>Table With Border</h2>
-    <p>Used CSS property to add Border</p>
-    <table id="Second-Table">
-        <tr>
-            <th>Name</th>
-            <th>Maths</th>
-            <th>English</th>
-         </tr>
-          <tr>
-            <td>Chauhan</td>
-            <td>80</td>
-            <td>95</td>
-          </tr>
-          <tr>
-            <td>Kumar</td>
-            <td>75</td>
-            <td>80</td>
-          </tr>
-          <tr>
-            <td>Sharma</td>
-            <td>78</td>
-            <td>90</td>
-          </tr>
-          <tr>
-            <td>Bhatia</td>
-            <td>67</td>
-            <td>78</td>
-          </tr>
-    </table>
-  
-    
-</body>
-</html> 
-
-<!--To collapse the Border-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-Style used for adding Border
-    <style>
-       #Third-Table,#Third-Table th,#Third-Table td {
-            border: 1px solid black ;
-            border-collapse: collapse;
-            
-        
-
-        }
-    </style>
-    
-<body>
-    <h2>Table With Border collapse</h2>
-    <p>Used CSS property to add Border</p>
-    <table id="Third-Table">
-        <tr>
-            <th>Name</th>
-            <th>Maths</th>
-            <th>English</th>
-         </tr>
-          <tr>
-            <td>Chauhan</td>
-            <td>80</td>
-            <td>95</td>
-          </tr>
-          <tr>
-            <td>Kumar</td>
-            <td>75</td>
-            <td>80</td>
-          </tr>
-          <tr>
-            <td>Sharma</td>
-            <td>78</td>
-            <td>90</td>
-          </tr>
-          <tr>
-            <td>Bhatia</td>
-            <td>67</td>
-            <td>78</td>
-          </tr>
-    </table> 
-
-    
