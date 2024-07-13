@@ -5,24 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    table,tr,td,th {
+    #table1 ,#table1 th,#table1 td ,#table1 tr{
       border: 1px solid black;
+      border-collapse:collapse;
+      border-style: dashed;
+      border-color: rgb(189, 86, 18);
+      }
+     #table2,#table2 th,#table2 td,#table2 tr{
+      border: 1.5px solid;
+      border-collapse:collapse;
+     }
+     #table2 th {
+      text-align: left;
+     }
+     #table3,#table3 th,#table3 td,#table3 tr{
+      border: 1.5px solid;
+      border-collapse:collapse;
+     }
+     #table4 ,#table4 tr,#table4 th,#table4 td {
+      border:2px solid;
       border-collapse: collapse;
-    }
+      border-color: blue;
+     }
+     #table5,#table5 th,#table5 tr,#table5 td {
+      border: 1px solid;
+      
+     }
+     #table5 th,#table5 td {
+      padding-left: 20px;
+     }
+     #table5 {
+      border-spacing: 20px;
+     }
+
+   
   </style>
 </head>
 <body>
   
-  <table >
-    <caption> My first Saving</caption>
+  <table id="table1" style="width: 50%;">
+    <caption> Tabel 1</caption>
     <thead>
-     
-    </thead>
-    <tbody>
       <tr>
         <th>Month</th>
         <th>Savings</th>
       </tr>
+     </thead>
+
+    <tbody>
   
       <tr>
         <td>January</td>
@@ -47,6 +77,134 @@
     </tfoot>
     
   </table>
+  <br>
+                                                          <!--Tabel Size-->
+  <table  id="table2" style="width: 100%;">
+    <caption> Tabel 2</caption>
+    <thead>
+      <tr>
+        <th style="width:70%;">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+     </thead>
+
+    <tbody>
+  
+      <tr style="height: 100px;">
+        <td>phill</td>
+        <td>smith</td>
+        <td>20</td>
+      </tr>
+  
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>David</td>
+        <td>Warner</td>
+        <td>56</td>
+      </tr>
+    </tbody>
+
+    
+    
+  </table>
+  <br>
+                                                                 <!--Tabel Headers-->
+  <h2 style="text-align: center;">Vertical Table Header</h2>
+  <p>The first column becomes table Headers if you set the first cell in each tabel row to th</p>
+  <table  id="table3" style="width: 100%;">
+    <caption> Tabel 3</caption>
+
+      <tr>
+        <th>Firstname</th>
+        <td>kartik</td>
+        <td>Rahul</td>
+        <td>Manish</td>
+      </tr>
+  
+      <tr>
+        <th>Lastename</th>
+        <td>Chauhan</td>
+        <td>Sharma</td>
+        <td>Verma</td>
+      </tr>
+      <tr>
+        <th>Age</th>
+        <td>34</td>
+        <td>34</td>
+        <td>23</td>
+        
+      </tr>
+
+    
+    
+  </table>
+  <br>
+  <p style="text-align: center;">Header for multiple columns</p>
+  <table  id="table4" style="width: 100%;">
+    <caption> Tabel 4</caption>
+    <tr>
+      <th colspan="2">Firstname</th>
+      <th>Age</th>
+    </tr>
+
+      <tr>
+        <td>kartik</td>
+        <td>Chauhan</td>
+        <td>34</td>
+      </tr>
+  
+      <tr>
+        <td>Rahul</td>
+        <td>Sharma</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Mohit</td>
+        <td>Verma</td>
+        <td>23</td>
+        
+      </tr>
+
+    
+    
+  </table>
+<br>
+<p style="text-align: center;">Spacing & Padding</p>
+  <table  id="table5" style="width: 100%;">
+    <caption> Table 5</caption>
+    <tr>
+      <th>Firstname</th>
+      <th>Lastname</th>
+      <th>Age</th>
+    </tr>
+
+      <tr>
+        <td>kartik</td>
+        <td>Chauhan</td>
+        <td>34</td>
+      </tr>
+  
+      <tr>
+        <td>Rahul</td>
+        <td>Sharma</td>
+        <td>34</td>
+      </tr>
+      <tr>
+        <td>Mohit</td>
+        <td>Verma</td>
+        <td>23</td>
+        
+      </tr>
+
+    
+    
+  </table>
+
 
   
 </body>
