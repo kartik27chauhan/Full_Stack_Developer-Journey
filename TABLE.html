@@ -37,7 +37,10 @@
      #table5 {
       border-spacing: 20px;
      }
-
+     #table6, #table6 th , #table6 td , #table tr{
+      border:1px solid;
+      border-collapse: collapse;
+     }
    
   </style>
 </head>
@@ -204,8 +207,52 @@
     
     
   </table>
+  <br>
 
+  <p style="text-align: center;">ColGroupg</p>
+  <table  id="table6" style="width: 100%;"> 
+    <colgroup>
+    <!-- <col span="" style="background-color:aqua">
+    <col span="" style="background-color:gray">
+    <col span="" style="background-color:green"> -->
+    <col span="">
+        <!--To hide a column-->
+    <col span="1" style="visibility: collapse">
+    <col span="" style="background-color: blueviolet;">
+    <col span="">
+    <col span="4" style="background-color: brown;">
+    
 
+    
+
+  </colgroup>
+
+    <caption> Table 6</caption>
+    <tr>
+      <th>col 1</th>
+      <th>col 2</th>
+      <th>col 3</th>
+      <th>col 4</th>
+    </tr>
+    <tr>
+      <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+    </tr>
+    <tr> <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+    </tr>
+    <tr>
+      <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+      <td>abc</td>
+    </tr>
+    
+  </table>
   
 </body>
 </html>
