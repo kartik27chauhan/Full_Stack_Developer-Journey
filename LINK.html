@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <!--Text decoration is used to remove the under line from the links-->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+       #Button {
+        
+        border: 2px solid rgb(80, 156, 44);
+        
+       } 
+       
+       a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+       }
+       a:visited {
+        color:purple ;
+        background-color: transparent;
+        text-decoration: none;
+       }
+       a:hover {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+       }
+       a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+       }
+    </style>
+</head>
+<body>
+    <!--To add Bookmark-->
+    <a href="#C5">Check Chapter 5</a>
+
+
+    <p>Thi is it</p>
+    <!--To add a link-->
+    <a href="https://www.linkedin.com/in/kartik-chauhan-7b7902208/" target="_blank">Click Here</a>
+    <br>
+    <!--To call-->
+    <a href="tel:+70189718">Call me</a>
+    <br>
+    <!--To Mail-->
+    <a href="mailto:kartikch864@gmail.com">Mail Me</a>
+    <br>
+    <!--Image as Link-->
+    <a href="https://en.bandainamcoent.eu/dragon-ball/dragon-ball-fighterz" target="_blank"> 
+        <img src="dragon.jpg" width="200" height="200"  alt="Goku"> 
+    </a>
+    <br>
+    <!--Button as a Link-->
+    <a id="Button" href="https://www.linkedin.com/in/kartik-chauhan-7b7902208/"  target="_blank">
+        <button>LinkDin</button>
+
+    </a>
+    <br>
+    <a id="Button2" href="https://www.linkedin.com/in/kartik-chauhan-7b7902208/" title="Link to My Linkdin Profile" target="_blank">
+        <button>click Here </button>
+
+    </a>
+    <br>
+    <hr>
+    <!--Visited,Unvistied & Active Link color-->
+    <!--Css Properties above-->
+    <p>Link Colors</p>
+    <a href="https://www.linkedin.com/in/kartik-chauhan-7b7902208/" target="_blank">LinkDin Profile</a>
+    <br>
+    <!--Create A Bookmark -->
+    <p>Chapter 4</p>
+    <p id="C5">Chapter 5</p>
+    <p>Chapter 6</p>
+    <p> chapter 7</p>
+
+    
+    
+</body>
+</html>
