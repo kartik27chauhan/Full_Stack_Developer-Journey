@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <img src="dragon.jpg" alt="Goku" width="200" height="200" title="Gokuu Image">
+    <br>
+    <!--To resize the image we can also use style attribut-->
+    <ul>
+        <li>
+            <p>Image using style attribute</p>
+        </li>
+    </ul>
+    <img src="dragon.jpg" alt="Goku" style="width:200px;height:200px" title="Goku Image">
+    <br>
+    <!--Images in another folder-->
+    <ul>
+        <li>
+            <p>Image from another folder</p>
+        </li>
+    </ul>
+    <img src="/Images/goku.jpg" alt="Goku " style="width: 200; height:200px" title="Goku Image">
+    <br>
+    <!--Animated Gif-->
+    <ul>
+        <li>
+            <p>Animated GIF</p>
+        </li>
+    </ul>
+    <img src="/Images/vegta.gif" alt="GIF" style="width:200px;height:200px">
+    <br>
+    <!--Image as a link-->
+    <ul>
+        <li>
+            <p>Image as a Link</p>
+        </li>
+    </ul>
+    <a href="https://in.pinterest.com/pin/677228862692560674/" target="_blank">
+        <img src="/Images/vegtagif.gif" alt="Vegta GIF" style="width:200px;height:200px" title="Click on Gif">
+        </a>
+    <br>
+    <!--Image Floating Left-->
+    <p>A smile is a universal expression of joy, warmth, and friendliness,
+         brightening the day and connecting people effortlessly.
+        <img src="/Images/smiley.gif" alt="GIF" style="float: left;width:48px;height:48px">
+        </p>
+    <!--Image Floating Right-->
+    <p>A smile is a universal expression of joy, warmth, and friendliness,
+        brightening the day and connecting people effortlessly.
+       <img src="/Images/smiley.gif" alt="GIF" style="float: right;width:48px;height:48px">
+       </p>
+       <!--Picture Tag-->
+       <picture>
+        <source media="(min-width: 650px)" srcset="/Images/code.jpg">
+        <img src="/Images/code.jpg" width="200px">
+       </picture>
+
+
+    
+
+</body>
+</html>
