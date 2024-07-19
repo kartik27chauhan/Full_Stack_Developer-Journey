@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Practice Tag</title>
+    
 </head>
-<body>
-    <!--ATTRIBUTES USED-->
-    <!--Para-->
+<input >
+    <i>I am i tag</i>
+    <br>
+    <em>i am em tag</em>
+   
+    <!--Para (Block line)-->
     <p>This is a paragraph</p>
     <!--pre tag in paragraph-->
     <pre>
@@ -19,8 +23,11 @@
 
         Oh, bring back my Bonnie to me.
     </pre>
+    <!--span tag (Inline tag)-->
+    <span> i am span tag</span>
+    
 
-    <!--HEading h1 to h6-->
+    <!--Heading h1 to h6 these are always bold-->
     <h1>Head 1</h1>
     <h2>Head 2</h2>
     <h3>Head 3</h3>
@@ -32,6 +39,69 @@
     <br>
     <!--Nested break-->
     <p>Morning <br> is Good</p>
+    <!--Sub & sup Tag-->
+    9<sup>3</sup>
+    <br>
+    9<sub>th</sub>
+    <br>
+    <!--ul (Unordered list) & li-->
+    <ul type="square">
+        <li>List 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+    </ul>
+    <!--Ordered list & li-->
+    <ol type="I">
+        <li>I am list 1</li>
+        <li>I am list 2</li>
+        <li>I am list 3</li>
+    </ol>
+    <!--Dl(Description List) , DD (Data Term ) & DD (Data Defination)-->
+    <dl>
+        <dt>Name
+            <dd>Kartik Chauhan</dd>
+        </dt>
+    </dl>
+    <dl>
+        <dt>BreakFast
+             <dd>Egg</dd>
+        </dt>
+    </dl>
+    <!--Mark  tag (To highlight any text)-->
+    <p>HTML <mark> (Hypertext Markup Language)</mark> is the standard language 
+        used to create and design the structure of web pages.</p>
+        <!--Small tag (Text get Small)-->
+        <p>AI (Artificial Intelligence)
+             involves creating <small>machines</small> capable of performing 
+             tasks that typically require human intelligence, 
+            such as learning, reasoning, and problem-solving.</p>>
+        <!--Feild set Tag & legend Tag-->
+        <fieldset> <legend>Hello</legend>
+            Hello World!
+        </fieldset>
+        <!--Detail Tag-->
+        <details>
+            <summary>I am Detail</summary> <p>Hello World</p></details>
+            <!--Image Tag-->
+            <img src="/Images/goku.jpg" width="200px" >
+            <br>
+            <!--Alt tag is use to give the desciption of the image for some how image is not load-->
+            <img src="/Images/gok.jpg" width="200px" alt="Image">
+            <br>
+            <!--Video Tag-->
+            
+            <!-- <video controls width="200px" height="200px"  poster="/Images/code.jpg" >
+                <source src="/Images/vegtavideo.mp4" type="video/mp4">
+            </video> -->
+            <br>
+            <!--Audio Tag-->
+            <audio controls >
+                <source src="Images/KR$NA ft. Seedhe Maut - Hola Amigo  Official Music Video.mp3" type="audio/mp3">
+            </audio>
+            <br>
+          
+
+
     <!-- Link -->
      <a href="https://www.linkedin.com/in/kartik-chauhan-7b7902208">My Linkdin</a>
      <a href="https://www.linkedin.com/in/kartik-chauhan-7b7902208" target="_blank"> Second Window</a>
@@ -40,6 +110,183 @@
     <a href="mailto:kartikch863@gmail.com">Send Mail</a>
     <!--Using Image as a email link-->
     <a href="mailto:kartikch863@gmail.com"target="_blank"><img src="mail.jpg" alt="Mail icon" width="100" height="100"></a>
+    <br>
+    <br>
+      <!--I Frame Tag-->
+        <iframe src="https://www.wikipedia.org/" width="400px" height="300"></iframe>
+        <br>
+        <!--How to embed youtube video to our website -->
+        <iframe width="200px" height="200px" src="https://www.youtube.com/embed/Nli1d7kW2DA?si=6UO9XgMkY_aQTHJB"
+         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <br>
+         <!--Embed Google Map-->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27387.678377276272!2d77.09873344999998!3d30.901769599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f86b5eef4ee27%3A0xa5e81a26852325ef!2sSolan%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1721325484993!5m2!1sen!2sin" 
+         width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <br>
+         <!--Semantic Elements-->
+         <header></header>
+         <!--Figure & figcaption-->
+         <figure>
+            <img src="/Images/goku.jpg" width="200px">
+            <figcaption>Image description</figcaption>
+         </figure>
+         <!--Input Tag-->
+         <p>Text BOX</p>
+         <input type="text">
+         <br>
+         <p>Number</p>
+         <input type="number">
+         <br>
+         <input type="checkbox">
+         <br>
+         <p>Email</p>
+         <input type="email">
+         <br>
+         <input type="range">
+         <br>
+         <!--picture Tag-->
+         <picture>
+         </picture>
+         <br>
+         <!--RAdio Button-->
+         <p>Gender</p>
+         <div>
+            <label>Male</label>
+            <input type="radio" name="gender">
+         </div>
+         <div>
+            <label>Female</label>
+            <input type="radio" name="gender">
+         </div>
+         <div>
+            <label>Other</label>
+            <input type="radio" name="gender">
+         </div>
+         <br>
+         <!--Upload File-->
+         <input type="file" accept=".png, .jpeg, .jpg">
+         <br>
+         <!--Color Picker-->
+         <input type="color" value="#182839">
+         <br>
+         <br>
+         <!--Calemder ,Date and Time-->
+         <div>
+            <label>Date</label>
+            <input type="date">
+         </div>
+         <br>
+         <div>
+            <label>Time</label>
+            <input type="time">
+         </div>
+         <br>
+         <div>
+            <label> Date &Time</label>
+            <input type="datetime-local">
+         </div>
+         <br>
+         <div>
+            <label> Week</label>
+            <input type="week">
+         </div>
+         <!--Search & reset-->
+         <br>
+         <form>
+            <div>
+                <label> Search</label>
+                <input type="search">
+             </div>
+             <br>
+             <div>
+                <label> Reset</label>
+                <input type="reset">
+             </div>
+         </form>
+         <br>
+         <br>
+         <!--Text Area-->
+         <textarea cols="35" rows="7"></textarea>
+         <br>
+         <!--Label Tag-->
+         <!-- <div>
+            <label for="name">Name</label>
+            <input id="name" type="text">
+         </div>
+         <br>
+         <div>
+            <label for="mail">Email</label>
+            <input id="mail" type="email">
+         </div>
+         <br>
+         <div>
+            <label for="contact">contact</label>
+            <input id="contact" type="tel">
+         </div>
+         <br> -->
+         <!--Input attributes-->
+         <form>
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text">
+             </div>
+             <br>
+            <div>
+                <label for="nam">Name</label>
+                <input id="nam" type="text" value="XYZ" readonly>
+             </div>
+             <br>
+             <div>
+                <label for="mail">Email</label>
+                <input id="mail" type="email" placeholder="abc@gmail.com">
+             </div>
+             <br>
+             <div>
+                <label for="mai">Email</label>
+                <input id="mai" type="email" placeholder="abc@gmail.com" disabled>
+             </div>
+             <br>
+             <div>
+                <label for="contact">contact</label>
+                <input id="contact" type="tel" placeholder="1234">
+             </div>
+             <br>
+             <!--MAxium Lenght-->
+             <div>
+                <label for="contac">contact</label>
+                <input id="contac" type="tel" placeholder="1234" maxlength="10">
+             </div>
+             <br>
+             <div>
+                <label for="num">Counter</label>
+                <input id="num" type="number">
+             </div>
+             <br>
+             
+             <div>
+                <label for="numb">Counter</label>
+                <input id="numb" type="number" step="4">
+             </div>
+             <br>
+             <!--To select Multiple Files-->
+             <div>
+                <label for="File">File Upload :</label>
+                <input id="File" type="file" multiple >
+             </div>
+             <br>
+             <!--Submit-->
+            <input type="submit">
+            
+         </form>
+       
+
+
+
+
+
+
+
 
 </body>
 </html>
