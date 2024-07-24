@@ -1,0 +1,13 @@
+/*Here we will style our HTML Elements*/
+h1 {
+    border: 1px solid black; /*set the border color black*/
+}
+p {
+    border: 1.5px solid tomato; /*set the border color tomato*/
+}
+.heading{
+    color: yellowgreen; /* Change the color of the text*/
+}
+.para {
+    color: tan; /* Change the color of the text*/
+}
