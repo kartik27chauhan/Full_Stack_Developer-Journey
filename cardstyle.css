@@ -1,0 +1,23 @@
+.card {
+    /* Add shadows to create the "CARD" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.388);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure the image and content fit within the card's border */
+}
+
+img {
+    width: 100%; /* Set image width to 100% of the card's width */
+    border-radius: 5px 5px 0 0; /* Rounded corners for the image */
+}
+
+.card:hover {
+    /* On mouse-over, add a deeper shadow */
+    box-shadow: 0 8px 16px 0 rgba(5, 167, 248, 0.986);
+}
+
+.container {
+    /* Add some padding inside the container */
+    padding: 2px 20px;
+}

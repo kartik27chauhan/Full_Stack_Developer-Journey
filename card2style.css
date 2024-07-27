@@ -1,0 +1,42 @@
+.card {
+    box-shadow: 0 4px 8px 0;
+    transition: 0.3s;
+   
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.744);
+    max-width: 300px;
+}
+img {
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(92, 30, 153);
+}
+.container {
+    padding: 0 15px;
+    color: white;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price {
+    font-size: 0.9em;
+    margin-top: 8px;
+    
+}
+.Current-rice {
+    color: rgb(94, 183, 212);
+}
+.original-price {
+    margin-left: 11px;
+}
+.per {
+    font-size: 0.8em;
+    margin-left: 9px;
+}
