@@ -1,0 +1,73 @@
+/*Linear Gradient*/
+.box {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+    /*By default the direction of gradient is Top to Down*/
+    background-image: linear-gradient(red,blue); 
+    
+    
+}
+.box2 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+    /*Left to right*/
+    background-image: linear-gradient(to right, red,blue);
+}
+.box3 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+    /*Right to left*/
+    background-image:linear-gradient(to left,red,blue);
+}
+.box4{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+    
+    /*Bottom  to top*/
+    background-image:linear-gradient(to top,red,blue);
+}
+.box5 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    
+    /*Diagonal*/
+    background-image:linear-gradient(to bottom right,red,blue);
+}
+.box6 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image:linear-gradient(to top left,red,blue);
+}
+.box7 {
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    background-image:linear-gradient(to bottom,red,blue,green);
+}
+/*Radial Gradient*/
+.radial1 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image:radial-gradient(red,blue,white);
+    
+     
+}
+/*You can allot the % to the colors*/
+.radial2{
+    border:1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: radial-gradient(yellow 5%,orange 15%,red 50%);
+}
+/*Conic Gradient*/

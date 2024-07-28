@@ -1,0 +1,35 @@
+/*Horizontal vertical blurr color*/
+h1 {
+    text-shadow: 3px 3px 3px red;
+}
+/*Multiple Shadows*/
+.multiple {
+    text-shadow:3px 3px 3px red,10px 5px 5px green;
+}
+/*BOX SHADOW*/
+.box1 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    box-shadow: 10px 10px 15px rgba(255, 0, 64, 0.918);
+    margin-bottom: 10px;
+}
+/*Multiple shadows*/
+.box2 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 15px rgba(0, 255, 136, 0.918),15px 15px 15px rgb(255, 0, 0);
+}
+/*Buy Using -ve Value we can change the direction of the shadow*/
+.box3 {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    box-shadow: -10px -10px 15px yellow,-15px -15px 15px orangered;
+}
+/*SPREAD RADIUS*/
