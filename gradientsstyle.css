@@ -66,8 +66,25 @@
 /*You can allot the % to the colors*/
 .radial2{
     border:1px solid black;
+    border-radius: 50%;
     height: 200px;
     width: 150px;
     background-image: radial-gradient(yellow 5%,orange 15%,red 50%);
 }
 /*Conic Gradient*/
+.conic {
+    border: 1px  white);
+    border-radius:50%;
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red,yellow,green);
+}
+.conic2 {
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 90deg,yellow 90deg,yellow 180deg
+    ,green 180deg,green 270deg,blue 270deg);
+
+}
