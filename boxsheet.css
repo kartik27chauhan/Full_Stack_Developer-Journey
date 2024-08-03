@@ -1,0 +1,18 @@
+.box {
+    border: 1px solid black;
+    height: 100px;
+    width: 150px;
+    margin: 10px;             /*To get space between two div/element or border space we use margin*/
+    padding: 25px;           /*Space between content and border is Called padding & block get bigger when we use it */
+    box-sizing: border-box; /*By using paddding the size of the Box also increses so to handle thi we have this property*/
+    
+}
+#org {
+    background-color:orange;  
+}
+#white {
+    background-color:white;
+}
+#green {
+    background-color:green;
+}
