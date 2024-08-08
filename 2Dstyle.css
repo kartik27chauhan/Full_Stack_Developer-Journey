@@ -1,0 +1,19 @@
+.box {
+    background-color: aqua;
+    /*transform:translate(100px,20px);*/ /*Only work in Block-Line*/ /*First is Horizonatl and second is Vertical*/
+    /*transform: rotate(-45deg);*/ /*Positive angle rotate in clock wise  and negative value rotate in anti-clockwise*/
+    margin: 100px;
+    /*transform:scale(2,2);*/ /*First attribute zoon it in horizontally and second vertically*/
+    transform: skew(50deg);
+}
+button {
+    margin-left: 60px;
+    
+}
+button:hover {
+    box-shadow: 2px 2px 2px red,-2px -2px 2px red;
+    transition: 1s;
+    transform:scale(1.5)
+}
+
+    
