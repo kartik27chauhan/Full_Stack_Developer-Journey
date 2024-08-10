@@ -1,50 +1,39 @@
-/*Changing the color of the web page background*/
-
-
- body {
-      background-image: url(Images/img23.jpg);
-      background-repeat: no-repeat;
-      background-position: top right;
-      background-attachment:fixed;
-      
-      
+body {
+   /* background-color:lightblue; */
+   background-image: url(images/backpaper.jpg);
+   background-image:url(Images/img23.jpg); /*The Background Image will get repeated*/
+   background-repeat: no-repeat; /*This will prevent the image from repeating*/
+   background-position: right top;/*By this you can specify the position of the background Image*/
+   background-attachment: fixed; /*Background Image will not scroll with the rest of the page*/
+   background-attachment:scroll;/*By this the image will scroll*/
+   
 }
-/* Background Attachment12 */
-/*h1 {
-    background-color: rgba(201, 81, 81, 0.405);
-}
-p {
-    background-color: yellow;
+h2 {
+   background-color:green;
 }
 div {
-    background-color: yellowgreen;
-} */
-
-
-
- /* Opacity / Transparency*/
- /*h1 {
-    
- }
- div.first {
-    opacity: 0.1;
- }
- div.second{
-    opacity: 0.3;
- }
- div.third{
-    opacity: 0.6;
- }
- div.fourth {
-    opacity:0.9;
- }
- div.fifth{
-    opacity:1;
- }
- /*Background Image*/
- /*body {
-    background-image: url("Images/paper.jpg");
- }*/
- /*p {
-   background-image: url(Images/);
- }*/
+   background-color:red;
+}
+.para {
+   background-color:yellow;
+}
+.first {
+      background-color:green;
+      opacity: 0.1;
+}
+.second {
+   background-color:green;
+   opacity: 0.3;
+}
+.third {
+   background-color:green;
+   opacity: 0.6;
+}
+.fourth {
+   background-color:green;
+   opacity: 1;
+}
+.bimage {
+      background-image: url(Images/elementbackground.jpg);
+      color:rgb(4, 0, 244);
+}
