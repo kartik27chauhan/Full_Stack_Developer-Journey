@@ -1,67 +1,47 @@
-/*Horizontal vertical blurr color*/
-h1 {
-    text-shadow: 3px 3px 3px red;
+.box{
+    width: 200px;
+    background-color: coral;
+    margin-left:30px;
+    margin-top: 30px;
+    box-shadow:5px 5px 5px red; /*First we will put horizontal value then vertical and the blur effect*/
 }
-/*Multiple Shadows*/
-.multiple {
-    text-shadow:3px 3px 3px red,10px 5px 5px green;
-}
-/*BOX SHADOW*/
-.box1 {
-    border: 1px solid black;
-    height: 200px;
-    width: 150px;
-    background-color: aqua;
-    box-shadow: 10px 10px 15px rgba(255, 0, 64, 0.918);
-    margin-bottom: 10px;
-}
-/*Multiple shadows*/
 .box2 {
-    border: 1px solid black;
-    height: 200px;
-    width: 150px;
-    background-color: aqua;
-    margin-bottom: 50px;
-    box-shadow: 10px 10px 15px rgba(0, 255, 136, 0.918),15px 15px 15px rgb(255, 0, 0);
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color: darkcyan;
+    box-shadow:5px 5px 5px 8px rgb(48, 68, 215);
 }
-/*Buy Using -ve Value we can change the direction of the shadow*/
 .box3 {
-    border: 1px solid black;
-    height: 200px;
-    width: 150px;
-    background-color: aqua;
-    box-shadow: -10px -10px 15px yellow,-15px -15px 15px orangered;
+    width: 200px;
+    background-color: coral;
+    box-shadow: 5px 5px 5px lightblue inset;
 }
-.box4 {
-    border: 1px solid black;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
-    margin-top: 10px;
-    margin-left: 40px;
-    /*IN this we have x-ofset and y-ofset
-    */
-      
-    /* box-shadow: 10px 15px brown;
-     */
+.card {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 40%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.header {
+    background-color: #55d355;
+    color: white;
+    padding: 10px;
+    font-size: 40px;
 
-    /*Box shadow using blur effect
-    */
-
-    /* box-shadow: 10px 15px 10px brown; 
-    */
-
-    /*SPREAD RADIUS
-    */
-    /* box-shadow: 10px 15px 10px 10px brown; 
-    */
-    /*INSIDE SHADOW
-    */
-    /* box-shadow: inset 10px 15px white ; 
-    */
-    /*MULTIPLE SHADOWS
-    */
-    box-shadow: 10px 15px 10px red,15px 18px 10px green;
-    
-
+}
+.container {
+    padding: 10px;
+}
+.polaroid {
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+img {
+    width: 200px;
+}
+.container2 {
+    padding: 10px;
 }
