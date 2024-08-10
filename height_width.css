@@ -1,0 +1,10 @@
+.box {
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+.box2 {
+    background-color:aqua;
+    height: 200px;
+    width: 50%;
+}
