@@ -4,3 +4,9 @@ span {
 li {
     display: inline;
 }
+.hidden {
+    display: none;
+}
+.hide {
+    visibility: hidden; /*This take some Space*/
+}
