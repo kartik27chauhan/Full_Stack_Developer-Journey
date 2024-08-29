@@ -3,8 +3,10 @@
     height: 100px;
     width: 150px;
     margin: 10px;             /*To get space between two div/element or border space we use margin*/
-    padding: 25px;           /*Space between content and border is Called padding & block get bigger when we use it */
-    box-sizing: border-box; /*By using paddding the size of the Box also increses so to handle thi we have this property*/
+     padding: 25px;           /*Space between content and border is Called padding & block get bigger when we use it */
+    box-sizing: border-box; /*By using paddding the size of the Box also increses so to handle this we have this property*/
+    text-align: center;
+    
     
 }
 #org {
