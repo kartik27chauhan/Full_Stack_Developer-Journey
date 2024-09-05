@@ -1,40 +1,21 @@
-
-/*Element Selctor*/
-
+h1 {
+    text-align: center;
+}
 /* p {
-    color:red;
-    font-size: larger; 
-}                         */
-/* h1 {
-    background-color: aqua; 
-} */
-table  {
-    border: 5px solid black; /*Applying border to tabel*/
-    
-}
-/*Class Selctor*/
-.red {
+    text-align: center;
     color: red;
+} */
+/* #para2 {
+    text-align: center;
+    color: blue;
+} */
+.center {
+    text-align: center;
+    color:brown;
 }
-.blue {
+p.color {
     color: blue;
 }
-                                        /*Changing h1,h2 &h3 font size small and h4, h5 & h6 font size in large*/
-.small {
-    font-size: small;
-}
-.larger {
+p.large {
     font-size: larger;
-}
-/*id Selctor is always unique*/
-#first_button {
-        color: red;
-}
-#intro_para {
-    background-color: blueviolet;
-}
-button:hover {
-    color: rgb(255, 0, 153);
-    border-radius: 50%;
-    transition: 0.3s;
 }
