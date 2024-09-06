@@ -65,6 +65,9 @@ p.free {
 p.mars {
     border-left:5px solid blue
 }
+.earth {
+    border-right: 3px solid green;
+}
 
 p.jupiter {
     border-bottom: 3px solid red;
