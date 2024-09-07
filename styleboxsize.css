@@ -1,0 +1,17 @@
+.box1 {
+    background-color: brown;
+    width: 600px;
+    height: 100px;
+    box-sizing: content-box; /*Default value*/
+    border: 5px solid black;
+    padding: 20px;
+}
+.box2 {
+    background-color: aqua;
+    width: 600px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    padding: 20px;
+
+}
