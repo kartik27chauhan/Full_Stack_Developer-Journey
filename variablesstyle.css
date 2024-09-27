@@ -1,0 +1,18 @@
+:root {
+    --red:#ff0000;
+}
+.container {
+    border: 2px solid brown;
+    background-color: var(--red);
+    
+   
+    height: 300px;
+    width: 300px;
+}
+.box{
+    border: 1px solid green;
+    background-color: aqua;
+    /* Created Variable */
+    --blue:#0000ff;
+    color: var(--blue);
+}
