@@ -1,0 +1,29 @@
+/* unvisited link */
+#unvisit:link {
+    color:red
+}
+/* Visited Link */
+#visit:visited {
+    color: green;
+
+}
+/* Mouse over Link */
+#hov:hover{
+    color: yellow;
+
+}
+
+/* Pseudo-classes and HTML Classes */
+a.highlight:hover{
+    font-size: 22px;
+    color: black;
+}
+/* Simple Tooltip Hover */
+p{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover p{
+    display: block;
+}
