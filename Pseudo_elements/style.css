@@ -1,0 +1,46 @@
+.element::first-letter {
+    font-size: 80px;
+    color: red;
+
+}
+.element2::first-line {
+    font-size: 60px;
+    color: orange;
+}
+.element3::selection {
+    background-color: yellow;
+    color: red;
+}
+.list li::marker {
+    color: red;
+    font-size: 50px;
+}
+
+.element4 {
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+}
+
+.element4::before {
+    content: "";
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    top: 30px;
+    right: 0;
+
+}
+.element4::after {
+    content: "";
+    position: absolute;
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    top: 30px;
+    left: 0;
+}
