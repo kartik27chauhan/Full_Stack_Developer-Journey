@@ -59,8 +59,38 @@ let booleanIsLoggedIn = Boolean(isLoggesdIn)
 //Convert in string
 
 let someNumber = 45
-console.log(typeof someNumber)
+//console.log(typeof someNumber)
 
 let stringNumber = String(someNumber)
-console.log(typeof stringNumber)
-console.log(stringNumber)
+//console.log(typeof stringNumber)
+//console.log(stringNumber)
+
+
+//************ Operations ****************//
+let value = 3
+let negvalue = -value
+//console.log(negvalue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/3)
+// console.log(2%3)
+
+let str1 = "Hello"
+let str2 = "Kartik"
+let str3 = str1 + str2
+// console.log("Assigning new variable output is :",str3)
+// console.log("Without assigning new variable output:",str1 + str2)
+
+// console.log("1" + 2)
+// console.log("1" + 2)
+// console.log("1" + 2 + 2)
+// console.log(1 + 2 + "2")
+
+
+console.log(+true)
+console.log(+"")
+
+
