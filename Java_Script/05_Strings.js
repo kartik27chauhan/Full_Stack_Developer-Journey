@@ -110,6 +110,17 @@ let tex = "Please visit LINKDIN"
 let reptex = tex.replace(/lINKDIN/i, "GitHub")
 console.log(`Wriiting in Upper case will not work ${reptex}`);
 
+//A string can be converted to an array with the split() method:
+let astring = "Hello World!, kartik chauhan"
+let splitString = astring.split("")
+console.log(`Return array will be an array of single characters ${splitString}`);
+
+let splitStringcomas = astring.split(",")
+console.log(splitStringcomas);
+
+
+
+
 
 
  
