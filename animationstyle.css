@@ -15,10 +15,10 @@
     animation-timing-function: linear;
     animation-delay: 1s;
     /* animation-direction: alternate; */
-    animation-fill-mode: forwards;
+     animation-fill-mode: forwards;
 
 
-}
+} 
 @keyframes kartik {
     0% {
         width: 212px;
@@ -45,3 +45,4 @@
         width:800px;
     }
 } */
+

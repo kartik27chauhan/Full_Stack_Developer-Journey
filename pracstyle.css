@@ -1,0 +1,34 @@
+.container{
+    position: relative;
+    width: fit-content;
+    
+    
+    
+    
+   
+}
+img {
+    width: 400px;
+    display: block;
+}
+.word1 {
+    position: absolute;
+    top:0px;
+    left: 5px;
+}
+.word2 {
+    position: absolute;
+    top:0px;
+    right: 5px;
+}
+.word3 {
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    color:red;
+}
+.word4 {
+    position:absolute;
+    bottom: 0px;
+    right: 5px;
+}

@@ -1,0 +1,14 @@
+div {
+    background-color: aqua;
+    height: 250px;
+    width: 500px;
+    border: 1px solid black;
+}
+#mydiv {
+    transform: rotate(-30deg); 
+    transform: scale(0.5,2); 
+    transform: scaleX(2);
+    transform: translatex(60px);
+    transform: skew(20deg,30deg);
+    
+}
