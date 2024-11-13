@@ -1,0 +1,14 @@
+.a {
+    list-style-type: circle;
+    /* list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2zAHP7AemIW21Yo4zaockRcBtr-VCzKumRg&s); */
+
+}
+.b {
+    list-style-type: square;
+}
+.c {
+    list-style-type: upper-roman;
+}
+.d {
+    list-style-type: lower-alpha;
+}
