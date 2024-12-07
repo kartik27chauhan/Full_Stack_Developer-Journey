@@ -1,96 +1,74 @@
-let score = "33"
-//console.log(typeof score);
+let score = 33
+console.log(typeof(score));
 
-//To chnage the string in number
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber)
+// If the value is in string
 
-let age = "26abc"
-//console.log("Type of Age is:",typeof age)
+let score1 = "33"
+console.log(typeof(score1));
 
-//To chnage the string in number
-let InNumber = Number(age) 
+// Convert the String into Number
+let valueInNumber = Number(score1)
+console.log(valueInNumber);
+console.log(typeof(valueInNumber));
+
+// if we have number and string both ex-"123abcd"
+let numberAndString = "123abcd"
+console.log(numberAndString);
+console.log(typeof(numberAndString));
 /*
-It gonna change the string into number but when you print variable
-the output will be NaN =>Not a Number
+Converting numberAndString into Number as its type is String
 */
-//console.log(typeof InNumber)
-//console.log(InNumber)
+let stringToNumber = Number(numberAndString)
+console.log(typeof(stringToNumber));
+console.log(stringToNumber);
 
-//if the value in variable is assigned null
-let s = null
-//console.log(typeof s)
+// if the vaue is null
+let valueNull = null
+console.log(valueNull);
+let nullToNumber = Number(valueNull)
+console.log(nullToNumber);
 
-let c = Number(s)
-//console.log("Type of c :",typeof c)
-//console.log(c)
 
-//if the value in variable is undefined 
-let q = undefined
-//console.log(typeof q)
+// If the value is UNDEFINED
+let valueUndefined = undefined
+console.log(valueUndefined);
+let undefinedToNumber = Number(valueUndefined)
+console.log(undefinedToNumber);
 
-let w = Number(q)
-//console.log("Type of w :",typeof w)
-//console.log(w)
-//if the value in variable is boolean 
-//console.log("For Boolean value")
-let e = true
-//console.log(typeof e)
-
-let f = Number(e)
-//console.log("Type of f :",typeof f)
-//console.log(f)
-
+// if the value is BOOLEAN
+let valueBoolean = false
+console.log(valueBoolean);
+let booleanToNumber = Number(valueBoolean)
+console.log(booleanToNumber);
 
 // "33" => 33
 // "33abc" => NaN
-// true => 1; false => 0
+// true => 1 / false => 0
 
+// Number to BOOLEAN
+let numberToBoolean = 0
+let booleanValue = Boolean(numberToBoolean)
+console.log(booleanValue);
 
-let isLoggesdIn = 0
-let booleanIsLoggedIn = Boolean(isLoggesdIn)
-//console.log("Type of :", typeof booleanIsLoggedIn)
-//console.log(booleanIsLoggedIn)
-
-// 1 => true
+// 1 => true ; 0 => false
 // "" => false
 // "kartik" => true
 
-//Convert in string
+// Converting into string
 
-let someNumber = 45
-//console.log(typeof someNumber)
-
+let someNumber = 78
 let stringNumber = String(someNumber)
-//console.log(typeof stringNumber)
-//console.log(stringNumber)
+console.log(stringNumber);
+console.log(typeof(stringNumber));
 
 
-//************ Operations ****************//
-let value = 3
-let negvalue = -value
-//console.log(negvalue);
-
-// console.log(2+2)
-// console.log(2-2)
-// console.log(2*2)
-// console.log(2**2)
-// console.log(2/3)
-// console.log(2%3)
-
-let str1 = "Hello"
-let str2 = "Kartik"
-let str3 = str1 + str2
-// console.log("Assigning new variable output is :",str3)
-// console.log("Without assigning new variable output:",str1 + str2)
-
-// console.log("1" + 2)
-// console.log("1" + 2)
-// console.log("1" + 2 + 2)
-// console.log(1 + 2 + "2")
 
 
-console.log(+true)
-console.log(+"")
+
+
+
+
+
+
 
 
