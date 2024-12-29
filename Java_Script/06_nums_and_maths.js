@@ -28,11 +28,33 @@ are accurate up to 15 digits.
 
 
 //+++++++++++++++++++++++++++++++ toPrecision ++++++++++++++++++++
-const otherNumber = 1231.8966
-console.log(otherNumber.toPrecision(5));
+// const otherNumber = 1231.8966
+// console.log(otherNumber.toPrecision(5));
 
-const num = 1000000
-console.log(num.toLocaleString("en-IN"));
+// const num = 1000000
+// console.log(num.toLocaleString("en-IN"));
+
+
+// +++++++++++++++++++++++++++++++ MATHS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.4));
+// console.log(Math.ceil(4.2));
+// console.log(Math.floor(4.6));
+// console.log(Math.sqrt(5));
+// console.log("Minimum  value is :", Math.min(35,5,6,23,0));
+// console.log("Maximum value is :", Math.max(35,5,6,23,0));
+// console.log("The value will come between 0 to 1 only", Math.random());
+// console.log(Math.random()*10)
+// console.log("To avoid the value 0 we will use", (Math.random()*10) + 1);
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
+
+
 
 
 
