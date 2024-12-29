@@ -1,70 +1,38 @@
-// const score = 600
+// const score = 400
 // console.log(score);
+// console.log(typeof(score));
 
 
 
-// const balance = new Number(100)
-// console.log(balance)
+// const balance = 100
+// console.log(typeof(balance));
 
+// console.log(balance);
 
 // console.log(balance.toString().length);
-// console.log(balance.toFixed(1));
-
-// const otherNumber = 23.8966
-// console.log(otherNumber.toPrecision(3));
-// 
-// const number_1  = 122.54
-// console.log(number_1.toPrecision(3));
-
-// const number_2 = 1000000
-// console.log(number_2.toLocaleString());
-
-// Indian Values
-// const number_3 = 1000000
-// console.log(number_3.toLocaleString('en-IN'));
+// console.log(balance.toFixed(2))
 
 
-// ++++++++++++++++++++++++++++  MATHS +++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++ Integer Precision+++++++++++++++++++++++++++++++++
+/*
+Integers (numbers without a period or exponent notation) 
+are accurate up to 15 digits.
+*/
+// let x = 999999999999999
+// console.log(x);
 
-// console.log(Math);
-
-// --> abs() Change the negative value to positive only negative
-// console.log(Math.abs(-4));
-
-// --> around() the value will be round off
-// console.log(Math.round(4.6));
-// To choose the upper value you use -->ceil
-
-// console.log(Math.ceil(6.4));
-
-// To choose the lower value we use -->floor
-// console.log(Math.floor(4.9));
-
-// --> Random value will always between 0-1
-// console.log(Math.random());
-// console.log(Math.random());
-
-// console.log(Math.random()*10);
-
-// To get greater value above 1
-// console.log((Math.random()*10) + 1);
-
-const min = 10
-const max = 20
-
-console.log(Math.floor(Math.random() * (max - min + 1) + min)) ;
+// console.log("If the value of variable or number is above 15 digits then");
+// let y = 9999999999999999
+// console.log("The actuall value y is 9999999999999999", "It will automatically increase if without any notation",y);
 
 
 
+//+++++++++++++++++++++++++++++++ toPrecision ++++++++++++++++++++
+const otherNumber = 1231.8966
+console.log(otherNumber.toPrecision(5));
 
-
-
-
-
-
-
-
-
+const num = 1000000
+console.log(num.toLocaleString("en-IN"));
 
 
 
