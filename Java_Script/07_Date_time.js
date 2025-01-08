@@ -45,19 +45,32 @@ There are 9 ways to create a new date object:
 
 // ++++++++++++++++++++++++ Date Methods ++++++++++++++++++++++++++++++++++
 // 1--> toString
-const d6 = new Date()
-console.log("when you display a date object in HTML, it is automatically converted to a string with toString() method:", d6.toString());
+// const d6 = new Date()
+// console.log("when you display a date object in HTML, it is automatically converted to a string with toString() method:", d6.toString());
 
 // 2--> toDateString
-const d7 = new Date()
-console.log("This method converts a date to more readable format:", d7.toDateString());
+// const d7 = new Date()
+// console.log("This method converts a date to more readable format:", d7.toDateString());
 
 // 3 --> toUTCString()
-const d8 = new Date()
-console.log("This method converts a date to a string using the UTC standard", d8.toUTCString());
+// const d8 = new Date()
+// console.log("This method converts a date to a string using the UTC standard", d8.toUTCString());
 
 // 4 --> toIOSString()
-const d9 = new Date()
-console.log("This method converts a date to a string using the ISO standard:",d9.toISOString());
+// const d9 = new Date()
+// console.log("This method converts a date to a string using the ISO standard:",d9.toISOString());
 
 
+// +++++++++++++++++++++ Time +++++++++++++++++++++++++++++++
+/*
+                     CONVERT DATE INTO TIME 
+*/
+const createdDate = new Date("01-12-2024")
+// console.log(createdDate);
+
+// const myTimeStamp = Date.now()
+// console.log(myTimeStamp);
+// console.log("It will give value in milliseconds", createdDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
+
+ 
