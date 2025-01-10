@@ -16,12 +16,20 @@ let isLoggedIn = false
 // symbol => unique
 // boolean => true/false
 
-// OBJECT:
-console.log(typeof "kartik")
+// +++++++++++++++++++++++++++ OBJECTS +++++++++++++++++++++++++++++
+// object => {key: value} => key-value pair
 
-console.log(typeof null) //object
+let person = {
+    firstName : "Rahul",
+    lastName : "Sharma",
+    age : 56,
+    eyeColor : "Black",
+    height : 5.3
 
-console.log(typeof undefined) //undefined
+}
+console.log(person);
+console.log(person.firstName);
+
 
 
 
